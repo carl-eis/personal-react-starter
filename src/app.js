@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom'
-import Home from '~/pages/home'
+import { Route, Link } from 'react-router-dom';
+import Home from '~/pages/home';
 
 const App = () => (
   <div>
@@ -14,6 +14,6 @@ const App = () => (
       { /* <Route exact path="/about-us" component={About} /> */}
     </main>
   </div>
-)
+);
 
 export default App;

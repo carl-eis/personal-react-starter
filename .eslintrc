@@ -76,6 +76,9 @@
       "error",
       2
     ],
+    "react/prop-types" : [
+      "warn"
+    ],
     "no-underscore-dangle": [
       2,
       {
