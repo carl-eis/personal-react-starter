@@ -10,3 +10,10 @@ const Router = () => (
 );
 
 export default Router;
+
+/*
+  How to use router links in your templates;
+
+  <Link to="/">Home</Link>
+  <Link to="/about-us">About</Link>
+*/

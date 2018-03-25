@@ -10,10 +10,3 @@ const App = () => (
 );
 
 export default App;
-
-/*
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
-    </header>
-*/

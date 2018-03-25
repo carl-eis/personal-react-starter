@@ -6,11 +6,11 @@ import Home from '~/pages/home/page';
 import homePageReducer from './page/reducer';
 
 const mapStateToProps = ({
-  homePageReducer: mainReducer, // rename to avoid conflicts
+  homePageReducer: pageReducer, // rename to avoid conflicts
   sharedReducer,
   routing,
 }) => ({
-  homePageReducer: mainReducer,
+  ...pageReducer,
   routerReducer: routing,
   sharedReducer,
 });
