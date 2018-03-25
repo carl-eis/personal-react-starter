@@ -7,10 +7,12 @@ import homePageReducer from './page/reducer';
 
 const mapStateToProps = ({
   homePageReducer: mainReducer, // rename to avoid conflicts
+  sharedReducer,
   routing,
 }) => ({
   homePageReducer: mainReducer,
-  router: routing,
+  routerReducer: routing,
+  sharedReducer,
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
