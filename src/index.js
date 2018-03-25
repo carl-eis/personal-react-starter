@@ -7,7 +7,6 @@ import 'bootstrap/js/dist';
 
 import store, { history } from '~/store';
 import App from '~/app';
-import '~/index.css';
 
 import registerServiceWorker from '~/registerServiceWorker';
 

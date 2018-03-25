@@ -13,7 +13,7 @@ const initialState = {
 };
 
 /* Create and export the reducer function */
-const newReducer = (state = initialState, action) => {
+const homePageReducer = (state = initialState, action) => {
   const { data, type } = action; // eslint-disable-line
   switch (type) {
     /* Page Actions */
@@ -22,4 +22,4 @@ const newReducer = (state = initialState, action) => {
   }
 };
 
-export default newReducer;
+export default homePageReducer;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route /* , Link */ } from 'react-router-dom';
 import Home from '~/pages/home';
+import '~/app/styles.css';
 
 const App = () => (
   <div>
